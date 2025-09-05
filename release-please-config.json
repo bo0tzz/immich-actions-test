@@ -18,9 +18,13 @@
       "component": "use-mise-action",
       "release-type": "simple"
     },
-    ".github/workflows/multi-runner-build.yml": {
+    ".github/workflows": {
       "component": "multi-runner-build-workflow",
-      "release-type": "simple"
+      "release-type": "simple",
+      "exclude-paths": [
+        ".github/workflows/release-please.yml",
+        ".github/workflows/zizmor.yaml"
+      ]
     }
   }
 }
