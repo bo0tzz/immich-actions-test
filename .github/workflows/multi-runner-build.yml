@@ -92,7 +92,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - uses: immich-app/devtools/actions/image-build@7d95e52a7a597ce005a306d6891467fc15427b69 # image-build-action-0.1.1
+      - uses: bo0tzz/immich-actions-test/image-build@image-build-action-0.1.1
         with:
           context: ${{ inputs.context }}
           dockerfile: ${{ inputs.dockerfile }}
