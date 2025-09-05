@@ -1,5 +1,5 @@
 {
-  "image-build": "0.1.1",
+  "image-build": "0.1.2",
   "success-check": "0.0.5",
   "use-mise": "0.1.0",
   ".github/workflows": "0.1.1"
