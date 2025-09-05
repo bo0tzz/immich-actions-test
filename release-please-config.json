@@ -3,7 +3,6 @@
   "release-type": "simple",
   "include-v-in-tag": true,
   "draft-pull-request": true,
-  "changelog-type": "github",
   "separate-pull-requests": true,
   "always-update": true,
   "packages": {
