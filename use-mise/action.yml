@@ -5,7 +5,7 @@ runs:
   steps:
     - uses: jdx/mise-action@5ac50f778e26fac95da98d50503682459e86d566 # v3.2.0
       with:
-        version: 2025.7.12
-        sha256: ${{ runner.os == 'Linux' && runner.arch == 'X64' && '78e141b547e4b50dac6b97f9be35e117f6a3e520aa6891aa5ee75c956585d5d2' ||
-                 runner.os == 'Linux' && runner.arch == 'ARM64' && '2e06c7bc32263d7a4ec45edb760922c85e37adba048dc1249d281cbf46e7f703' ||
-                 runner.os == 'macOS' && runner.arch == 'ARM64' && '41eaf6d5a35cc077e205548ecb753ea30d83cdca650c84858c211fb850ef63ef' }}
+        version: 2025.8.21
+        sha256: ${{ runner.os == 'Linux' && runner.arch == 'X64' && '1eaffde2d4a1e09b63c50e78b785f9787e070966008e6bf31f0550e83deedb25' ||
+                 runner.os == 'Linux' && runner.arch == 'ARM64' && 'c50ad8fc476caca06e7269150890e93a407bd8d22af0abd4a2b4d38a4780aea8' ||
+                 runner.os == 'macOS' && runner.arch == 'ARM64' && '80b284ecc407b9e2d00983242f290c849ea1c6c3e7cc3733c0362558a50263bf' }}
